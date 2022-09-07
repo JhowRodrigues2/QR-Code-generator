@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600&display=swap");
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Source Sans Pro", sans-serif;
+}
+.Content {
+  width: 100%;
+  height: 90vh;
+  display: flex;
+  flex-direction: row;
+}
+.Content .Text {
+  width: 50%;
+  height: 90vh;
+  background-color: #2d2938;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.Box-text h3 {
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+}
+.Box-text p {
+  font-size: 18px;
+}
+.Content .Main {
+  width: 50%;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.Main-Conteudo {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  padding: 30px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+label {
+  font-size: 30px;
+  font-weight: 600;
+  color: rgb(28, 23, 80);
+}
+input {
+  border-radius: 8px;
+  height: 30px;
+  border: 2px solid rgb(214, 207, 207);
+  font-size: 15px;
+  padding-left: 10px;
+}
+input:focus {
+  outline: none !important;
+  border: 2px solid rgb(17, 16, 85);
+}
+
+.btGerarQR:hover {
+  background-color: #3db5e9;
+}
+.Main-Conteudo .btGerarQR {
+  border: 1px solid;
+  min-width: 100%;
+}
+.btGerarQR {
+  margin-top: 20px;
+  border-radius: 30px;
+  border: none;
+  height: 35px;
+  cursor: pointer;
+  background-color: #029cdc;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+
+.btDownload {
+  min-width: 100%;
+  margin-top: 20px;
+  border-radius: 30px;
+  border: none;
+  height: 35px;
+  background-color: #cbe5f0;
+  color: #fff;
+  font-weight: bold;
+  font-size: 15px;
+}
+.div-QR {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer {
+  width: 100%;
+  height: 10vh;
+  background-color: #2d2938;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.Footer a {
+  text-decoration: none;
+  font-size: 16.5px;
+}
+.Footer a:visited {
+  color: white;
+}
